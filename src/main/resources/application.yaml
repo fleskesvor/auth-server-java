@@ -13,7 +13,7 @@ spring:
               client-id: test-client
               client-secret: "{noop}secret"
               client-authentication-methods:
-                - client_secret_basic
+                - none
               authorization-grant-types:
                 - authorization_code
                 - refresh_token
