@@ -19,6 +19,8 @@ spring:
                 - refresh_token
               scopes:
                 - user.read
+              redirect-uris:
+                - http://localhost:3000/callback
           token-client:
             registration:
               client-id: token-client
